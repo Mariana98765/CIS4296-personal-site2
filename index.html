@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script defer src="fontawesome/js/all.js"></script>
+    <title>John Doe</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-family: Arial;
+            scroll-behavior: smooth;
+            background-color: lavender;
+        }
+
+        .faded {
+            opacity: 0.8
+        }
+
+        .landing {
+            min-height: 100%;
+            min-height: calc(100% - 56px);
+            padding-top: 56px;
+        }
+
+        .btn-outline {
+            color: blue;
+            background-color: lightpink;
+            border: 2px solid black;
+            opacity: 0.5;
+            transition: 0.3s;
+
+        }
+
+        .btn-outline:hover {
+            opacity: 1;
+        }
+
+        .lang {
+            height: 60px;
+            transition: 0.3s;
+        }
+
+        .contacticon {
+            font-size: 65px;
+           
+        }
+
+        .contacticon a {
+            color: rgb(33, 37, 41);
+        }
+
+        .course {
+            margin: 0 10px;
+            padding: 20px;
+            background-color: lightblue;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .course h5 {
+            margin: 0;
+        }
+
+        .next {
+            font-size: 65px;
+        }
+
+        .next a {
+            color: rgb(33, 37, 41);
+        }
+        
+        
+       
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#landing">Mariana Pratsovyta<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Mariana's Portfolio</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center">
+                I am student at College of Science and Technology at Temple University and my major is Information Science and Technology.
+                I am originally came from Ukraine but now I am living in Philadelphia.
+            </h5>
+        </div>
+
+
+
+        
+        <div class="row mx-auto">
+            <h5 class="display-5 font-weight-bold mx-auto text-center">My Hard Skills</h5>
+        </div>
+          <div class="row my-4">
+              <div class="col my-3">
+                <img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Java" />
+            </div>
+            <div class="col my-3">
+                <img src="images/jquery.jpg" class="lang" data-toggle="tooltip"
+                     data-placement="top" title="jQuery" />
+            </div>
+
+            <div class="col my-3">
+                <img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="C#" />
+            </div>
+
+            <div class="col my-3">
+                <img src="images/javascript.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="javascript" />
+            </div>
+
+            <div class="col my-3">
+                <img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="ASP.NET" />
+            </div>
+            <div class="col my-3">
+                <img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Microsoft SQL Server" />
+            </div>
+
+        </div>
+
+        <div class="row mx-auto">
+            <h5 class="display-5 font-weight-bold mx-auto text-center">My Soft Skills</h5>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">Teamwork</li>
+            <li class="list-group-item">Problem-soloving</li>
+            <li class="list-group-item">Communication</li>
+            <li class="list-group-item">Responsibility</li>
+            <li class="list-group-item">Self-motivated</li>
+        </ul>
+
+
+     
+
+        <div class="row my-4">
+            <div class="col">
+                <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
+            </div>
+            <div class="col">
+                <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+            </div>
+            <div class="col">
+                <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
+            </div>
+        </div>
+        <div class="row mt-5 next">
+            <a href="#projects" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Projects"></i>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
+        </div>
+
+
+
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success">
+                <div class="row w-100 justify-content-center flex-column align-items-center">
+                    <h5>Movie Finder application</h5>
+                </div>
+                The user must first register on the site. The user of the application will be able to find a movie based on his genre preferences.
+                Each film has a short description and its rating on a 10-point scale. Once you have selected a movie you can add it to the "watch later"list.
+            </li>
+            <li class="list-group-item list-group-item-info">
+                <div class="row w-100 justify-content-center flex-column align-items-center">
+                    <h5>BioBase Slide Inventory system</h5>
+                </div>
+                For the Biology department of Temple University our team of 5 people team is designing system which updates and displays available slides for lab instructors to request.
+                BioBase will be a web-based system that will let instructors know what and how many slides are available, stored location, condition, any optional but relevant information concerning the slides, establishing a more organized and accessible process.
+            </li>
+            
+            <li class="list-group-item list-group-item-danger">
+                <div class="row w-100 justify-content-center flex-column align-items-center">
+                    <h5>Solitaire Encryption</h5>
+                </div>
+
+                The idea of this project is that you can write secret messages without access to a computer,  you can do it with an algorithm from a deck of cards.
+            </li>
+
+        </ul>
+
+
+
+     
+        <div class="row mt-5 next">
+            <a href="#courses" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Courses"></i>
+            </a>
+        </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Information Systems Analysis and Design</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Server-Side Web Application Development</h5>
+            </div>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Network Architectures</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Client-Side Scripting</h5>
+            </div>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Component-Based Software Design</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Database Management Systems</h5>
+            </div>
+        </div>
+        <div class="row mt-5 next">
+            <a href="#contact" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Contact"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-italic mx-auto text-center">Please contact me or leave your information and I will reach you out</h4>
+        </div>
+
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName">Your Name</label>
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+
+        <div class="row my-4 contacticon">
+            <a href="mailto:tuk32869@temple.edu" class="col mx-3">
+                <i class="fas fa-envelope-square"
+                   data-toggle="tooltip" data-placement="top" title="Email"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mariana-pratsovyta-6858841a2/" class="col mx-3">
+                <i class="fab fa-linkedin"
+                   data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+            </a>
+            <a href="https://github.com/Mariana98765" class="col mx-3">
+                <i class="fab fa-github-square"
+                   data-toggle="tooltip" data-placement="top" title="Github"></i>
+            </a>
+
+        </div>
+
+        
+
+
+
+
+
+        <div class="row mt-5">
+            <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
